@@ -74,7 +74,7 @@
             This packet is unencrypted.
         </comment>
         <field name="challenge" type="three"/>
-        <field name="version" type="Version"/>
+        <field name="version" type="three"/>
         <!-- The official server verifies that this number is 112 -->
         <field type="char">112</field>
         <length name="hdid_length" type="char"/>
